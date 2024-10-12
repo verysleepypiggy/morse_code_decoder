@@ -1,0 +1,3 @@
+add_executable(morse_code morse_code.c)
+target_link_libraries(morse_code pico_stdlib)
+pico_add_extra_outputs(morse_code)
